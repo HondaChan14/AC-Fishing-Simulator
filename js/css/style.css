@@ -1,0 +1,55 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+h1{
+    font-size: 40px;
+}
+
+body{
+ background-image: url("img/ac.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.left{
+    width: 40vw;
+    height: 95vh;
+    float: left;
+}
+section {
+    padding-left: 100px;
+    width: 48vw;
+    height: 95vh;
+    float: left;
+
+}
+
+button{
+    width: 10%;
+    border-radius: 4px;
+    position: absolute;
+    top: 80%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+img{
+    
+    width: 75%
+}
